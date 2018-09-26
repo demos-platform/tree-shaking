@@ -1,9 +1,9 @@
 export function square(x) {
+  console.log('square')
   return x.a
 }
 
-console.log(square({ a: 'hi,test' }))
-
 export function cube(x) {
+  console.log('cube')
   return x * x * x
 }

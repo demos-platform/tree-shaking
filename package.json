@@ -2,7 +2,6 @@
   "name": "tree-shaking",
   "version": "1.0.0",
   "description": "调研 webpack tree-shaking",
-  "main": "index.js",
   "scripts": {
     "build": "webpack"
   },
@@ -13,6 +12,7 @@
   "author": "muyunyun",
   "license": "MIT",
   "dependencies": {
+    "diana": "^0.5.1",
     "lodash": "^4.17.11",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.1"
